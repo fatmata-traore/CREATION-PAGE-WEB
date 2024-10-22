@@ -72,6 +72,42 @@ i {
   top: 3.5rem;
   margin-left: -5rem;
 }
+@media screen and (max-width: 1004px) and (min-width: 160px) {
+  .heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5%;
+    background-color: black;
+    color: #fff;
+    font-size: 7px;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    padding: 5px;
+    margin-right: 2rem;
+  }
+  .element2 {
+    position: absolute;
+    width: 2px;
+    /* height: 2px; */
+    margin-top: -30px;
+    margin-left: -16%;
+  }
+  p {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 3%;
+    font-size: 5px;
+  }
+  i {
+    width: 4px;
+  }
+}
 
 @media screen and (max-width: 375px) {
   .heading {
