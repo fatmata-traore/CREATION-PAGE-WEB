@@ -107,6 +107,16 @@ i {
   i {
     width: 4px;
   }
+  .icon {
+    display: flex;
+    gap: 12px;
+  }
+  .element {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 2%;
+  }
 }
 
 @media screen and (max-width: 375px) {
