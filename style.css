@@ -40,10 +40,11 @@ ul {
   gap: 8%;
 }
 .element2 {
-  position: relative;
+  position: absolute;
   width: 10px;
   height: 49px;
-  margin-top: -10px;
+  margin-top: -30px;
+  margin-left: -6%;
 }
 
 i {
