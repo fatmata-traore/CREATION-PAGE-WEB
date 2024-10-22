@@ -6,6 +6,7 @@
 }
 .P1 {
   font-size: 10px;
+  margin-left: 10%;
 }
 
 .heading {
@@ -13,63 +14,77 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  gap: 10%;
-  /* padding: 10px 4px; */
+  gap: 15%;
   background-color: black;
   color: #fff;
   font-size: 10px;
 }
-.UL1 {
+ul {
   list-style: none;
   display: flex;
   gap: 32px;
   padding: 15px;
+  margin-right: 7rem;
 }
-
-.tableau-style {
-  border-collapse: collapse;
-  min-width: 400px;
-  width: 100%;
-  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-}
-
-tbody tr,
-td,
-th {
-  border: 1px solid rgb(225, 219, 219);
-  padding: 6px;
-  font-size: 13px;
-  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
-}
-.tableau1 {
-  /* text-align: center;
+.position {
+  display: flex;
+  gap: 35%;
   justify-content: center;
-  align-items: center; */
-  margin-left: 7%;
+  align-items: center;
+  text-align: center;
 }
-i {
-  position: absolute;
-  /* margin-left: -4%; */
-  margin-top: -3px;
+.element {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 8%;
 }
-.position1 {
-  position: absolute;
-  top: -2px;
+.element2 {
+  position: relative;
+  width: 10px;
+  height: 49px;
+  margin-top: -10px;
 }
 
-@media screen and(max-width:562px) {
+i {
+  margin-top: 15px;
+}
+.icon {
+  display: flex;
+  gap: 20px;
+}
+.border {
+  border-left: 1px solid black;
+  width: 10px;
+  height: 40px;
+}
+
+.logo {
+  /* margin-left: 14%;
+  margin-top: -45px; */
+  position: relative;
+  width: 17%;
+  height: 80px;
+}
+.logo img {
+  position: absolute;
+  top: 3.5rem;
+  margin-left: -5rem;
+}
+
+@media screen and (max-width: 375px) {
   .heading {
     display: flex;
-
+    /* flex-direction: column; */
     font-size: 4px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
   }
 }
 /* EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEpartie2EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
-/* img {
-  width: 100%;
-  height: 90vh;
-} */
 h1 {
   justify-content: center;
   text-align: center;
@@ -77,6 +92,9 @@ h1 {
   color: #fff;
   font-size: 44px;
   font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+img {
+  object-fit: cover;
 }
 h2 {
   justify-content: center;
@@ -106,4 +124,14 @@ button {
 .PARTIE3-A {
   margin-top: -7%;
   margin-left: 18%;
+}
+
+@media screen and (max-width: 768px) {
+  .tableau1 {
+    display: flex;
+    gap: 5px;
+    /* border: 1px solid black; */
+    margin-left: -10%;
+    margin-top: 6px;
+  }
 }
