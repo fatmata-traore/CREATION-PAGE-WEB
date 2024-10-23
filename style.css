@@ -129,22 +129,19 @@ i {
   .PARTIE3-A {
     display: flex;
     flex-direction: column;
-    /* margin-top: -7%;
-    margin-left: 18%; */
     position: relative;
-    width: 90%;
-    left: -10rem;
+    /* width: 70%; */
+    left: 1rem;
   }
   .partie2 {
     width: 100%;
   }
   .PARTIE3 {
-    width: 90%;
+    /* width: 90%; */
     height: 70vh;
-
     position: relative;
     top: -19rem;
-    left: -2rem;
+    left: -3rem;
   }
 }
 
