@@ -117,6 +117,32 @@ i {
     align-items: center;
     gap: 2%;
   }
+  h1 {
+    position: relative;
+    top: -16rem;
+  }
+  h2 {
+    position: relative;
+    top: -15rem;
+  }
+  .PARTIE3-A {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: -7%;
+    margin-left: 18%; */
+    position: relative;
+    width: 90%;
+    margin-left: -17rem;
+  }
+  .PARTIE3 {
+    width: 10%;
+    height: 30vh;
+    background: gray;
+    /* padding: 10px; */
+    position: relative;
+    top: -9rem;
+    /* margin-: 15rem; */
+  }
 }
 
 @media screen and (max-width: 375px) {
