@@ -102,7 +102,7 @@ i {
     text-align: center;
     align-items: center;
     gap: 3%;
-    font-size: 5px;
+    font-size: 11px;
   }
   i {
     width: 4px;
@@ -130,15 +130,17 @@ i {
     display: flex;
     flex-direction: column;
     position: relative;
-    /* width: 70%; */
-    left: 1rem;
+    width: 130%;
+    /* height: 60px; */
+    left: -4rem;
+    top: -8px;
   }
   .partie2 {
     width: 100%;
   }
   .PARTIE3 {
     /* width: 90%; */
-    height: 70vh;
+    height: 50vh;
     position: relative;
     top: -19rem;
     left: -3rem;
@@ -154,7 +156,7 @@ i {
   ul {
     display: flex;
     flex-direction: column;
-    font-size: 8px;
+    font-size: 17px;
   }
 }
 /* EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEpartie2EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
