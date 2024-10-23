@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
 }
 .P1 {
@@ -125,6 +125,7 @@ i {
     position: relative;
     top: -15rem;
   }
+
   .PARTIE3-A {
     display: flex;
     flex-direction: column;
@@ -132,16 +133,18 @@ i {
     margin-left: 18%; */
     position: relative;
     width: 90%;
-    margin-left: -17rem;
+    left: -10rem;
+  }
+  .partie2 {
+    width: 100%;
   }
   .PARTIE3 {
-    width: 10%;
-    height: 30vh;
-    background: gray;
-    /* padding: 10px; */
+    width: 90%;
+    height: 70vh;
+
     position: relative;
-    top: -9rem;
-    /* margin-: 15rem; */
+    top: -19rem;
+    left: -2rem;
   }
 }
 
